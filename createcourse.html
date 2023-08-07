@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="sig">
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="assest/css/createcourse.css">
+</head>
+<body class="studentbody">
+
+
+	<div class="studentsignup">
+
+		<h1> Course Details </h1><hr>
+
+		<form method="post" action="createcourse.php">
+			
+			
+			<input type="Text" name="tname" placeholder="Tutor Name">
+			<input type="Text" name="email" placeholder="Email Address">
+			<input type="text" name="number" placeholder="Tutor Phone Number">
+	
+	  <select name="phase">
+		<option selected disabled="select Phase"> Tutor Phase </option>
+		<option> Phase I </option>
+		<option>Phase II</option>
+		<option>Phase III</option>
+		<option>Phase IV</option>
+		<option>Phase V</option>
+		<option>Phase VI</option>
+		<option>Phase VII</option>
+	</select>
+
+    <input type="text" name="Cname" placeholder="Course Name"><hr>
+
+    <label class="labels">Course Duration From</label>
+
+    <input type="date" name="Cduration"><hr>
+
+    <label class="labels">To</label>
+
+    <input type="date" name="Cduration"><hr>
+
+	 <label class="labels">Class Start at</label>
+
+	<input type="time" name="starttime"><hr>
+
+	<label class="labels">Class Finish at</label>
+
+	<input type="time" name="endtime">
+
+	<input type="submit" name="submit" placeholder="Create">
+
+	</form>
+		
+	</div>
+</body>
+</html>

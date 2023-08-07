@@ -1,0 +1,154 @@
+body{
+
+	margin: 0px 6px 0px 6px;
+
+	background-color: gray;
+
+	
+
+}
+
+.div2{
+	width: 100%;
+	height: 80px;
+	margin:-5px 0px 0px 0px;
+    text-align: center;
+	background-color: seagreen;
+
+}
+
+.div2 h1{
+padding: 20px;
+color: white;
+
+}
+
+.div1{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	margin: -15px 0px 0px 0px;
+	padding-bottom: 1px;
+	border:2px solid red;
+
+}
+
+.div1 ul li{
+	       padding-right: 10px;
+	       padding: 10px;
+           float: right;
+           list-style-type: none;
+           cursor: pointer;
+           color: white;
+}
+
+.div1 ul li:hover{
+	background-color: orange;
+	padding: 3px 3x 3px 3px;
+}
+
+.div3 button{
+	width: 30%;
+	height: 30px;
+	text-align: left;
+	padding-top: 5px;
+	margin-top: 8px;
+	margin-left: 35%;
+	background-color: seagreen;
+	border: solid 2px maroon;
+}
+
+ .ans1 {
+	
+	display: none;
+	color: white;
+
+}
+
+.ans2 {
+	
+	display: none;
+	
+
+	color: white;
+}
+
+.ans3 {
+	
+	display: none;
+	color: white;
+}
+
+.ans4 {
+	
+	display: none;
+	background-color: darkkhaki;
+}
+
+.ans5 {
+	
+	display: none;
+	
+	color: white;
+}
+
+.ans6 {
+	
+	display: none;
+	background-color: darkslategray;
+	color: white;
+}
+
+.ans7 {
+	
+	color: white;
+	display: none;
+}
+
+.ans8 {
+	background-color: darkgray;
+	display: none;
+	font-size: 15px;
+	font-style: bold;
+	color: white;
+}
+
+.ans9{
+	
+	display: none;
+	background-color: olivedrab;
+}
+
+.ans10{
+	
+	display: none;
+	background-color: palevioletred;
+}
+
+.ans11{
+	
+	display: none;
+	background-color: rosybrown;
+}
+
+.ans12{
+	
+	display: none;
+	background-color: seagreen;
+}
+
+/*footer section*/
+  footer{
+  	background-color: brown;
+  	width: 100%;
+  	height: 35px;
+  	
+  }
+   /*Copyright wala*/
+   .footerdiv{
+   	font-family: 'Raleway', sans-serif;
+   	float: right;
+   	margin-top: 8.5px;
+   	margin-right: 3em;
+   	color: white;
+ } 

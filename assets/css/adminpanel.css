@@ -1,0 +1,166 @@
+body{
+
+			padding: 0;
+			margin: 0;
+
+			background-image: url("../assets/images/bg.jpg");
+
+		}
+
+		.header{
+
+		width: 100%;
+		height:40px;
+		background-color: #DC583C  ;
+		margin-top:-1.4em;
+	}
+	.header h1{
+
+		text-align: center;
+	}
+
+		.leftsidebar{
+
+			width: 7em;
+			height:623px;
+			background-color: #4F4948;
+			margin-top: -1.4em;
+		}
+
+		h5{
+
+			margin-top: -0.5em;
+			margin-left: 0.5em;
+	}
+
+	
+	
+
+	.logout{
+
+		text-align: right;
+		padding-right: 1.2em;
+		margin-top: -2em;
+		float: right;
+		cursor: pointer;
+}
+	.homeicon{
+	margin-top:1.4em;
+	margin-left: 1em;
+	}
+
+	.user{
+	margin-top:1.4em;
+	margin-left: 1em;
+	}
+	.userh5{
+
+			margin-top: -0.4em;
+			margin-left: 0.3em;
+	}
+
+	.message{
+	margin-top:1.4em;
+	margin-left: 1em;
+	}
+	.msg5{
+
+			margin-top: -0.4em;
+			margin-left: -0.5em;
+	}
+
+	.deleteuser{
+	margin-top:1.4em;
+	margin-left: 0.7em;
+	}
+	.dlt5{
+
+			margin-top: -0.2em;
+			margin-left: -0.5em;
+	}
+
+	.updateuser{
+	margin-top:1.4em;
+	margin-left: 0.7em;
+	}
+	.upd5{
+
+			margin-top: -0.2em;
+			margin-left: -0.7em;
+	}
+
+	.searchuser{
+	margin-top:1.4em;
+	margin-left: 0.7em;
+	}
+	.srch5{
+
+			margin-top: -0.2em;
+			margin-left: -0.7em;
+	}
+
+
+.searchh1{
+	padding-top: 1em;
+}
+
+
+
+/** NEW CODE */
+
+
+
+/*footer section*/
+  footer{
+  	margin-top:80px !important;
+  	background-color: brown !important;
+  	width: 100% !important;
+  	height: 35px !important;
+
+  }
+   /*Copyright wala*/
+   .footerdiv{
+   	font-family: 'Raleway', sans-serif;
+   	float: right;
+   	margin-top: 9px;
+   	margin-right: 3em;
+   	color: white;
+   	/*padding-bottom:10px;*/
+   }
+
+  .footer{
+		float: right;
+}
+
+.footer li{
+	float: right;
+	padding: 0px 8px;
+	list-style-type: none;
+	margin-right: 1em;
+	/*margin-top: -0.2em;*/
+	    margin-top: -10px;
+}
+
+
+.admin-main-box {
+	width:100%;
+	min-height: 400px;
+	overflow: hidden;
+}
+
+
+.left-menu-box {
+	width:125px;
+	min-height: 400px;
+	overflow: hidden;
+	float: left;
+	margin-right: 50px;
+}
+
+
+.content-box {
+	width: 1000px;
+	min-height: 400px;
+	overflow: hidden;
+	float: left;
+}

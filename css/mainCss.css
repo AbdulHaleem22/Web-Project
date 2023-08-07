@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&subset=latin-ext');
+
+
+
+/*when padding/margin creates gab between any tag, by using * we can remove them*/
+*{
+	margin:0px;
+	padding:0px;
+	}   
+
+#topheader{
+	border: 2px solid;
+	 
+	height: 50px;
+	text-align: center;
+	padding-right: 5px;
+    background-image: url("../images/back.gif");
+
+}
+#topheader h1{
+	font-size: 40px;
+
+}
+
+#logo{
+	height: 40px;
+	width: 100px;
+    margin-top: -2.7em;
+	margin-left: 1em;
+	border: 2px solid black;
+		
+	background-image: url(../images/parent.png);
+	    border-radius: 10px;
+}
+body {
+	
+	
+margin: 0.5px;
+	
+}
+
+header	{
+	background-color: black;
+	color: white;
+	padding-top: 8px;
+    height: 50px;
+	border: 8px;
+	border-color: red;
+	
+}
+
+header h1{
+     
+     display: inline;
+     font-family: verdana;
+     font-weight: 600;
+     font-size: 32px;
+     float: left;
+     margin-top: 5px;
+     margin-right: 10px;
+  
+
+}
+
+.loginlabel{
+
+	margin-top: 2.3em;
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-left: 106.2em;
+	position: absolute;
+}
+
+
+nav ul{
+
+	    display: inline;
+	    padding: 0px;
+	    float: left;
+}
+
+nav ul li{
+
+	       display: inline-block;
+	       list-style-type: none;
+	       float: left;
+	       margin-left: 14px;
+	       margin-top: 6px;
+	       font-size: 18px;
+
+}
+
+nav ul li a{
+	  color: white;
+	  text-decoration: none;
+}
+
+/*background wala likal*/
+#ul1 {
+	font-family: 'Righteous', cursive;
+}
+
+/*social media wala icon*/
+.ul2 {
+	float: right;
+	padding-right: 45px;
+	margin-top: -8px;
+
+
+}
+
+.homered{
+	background-color: brown;
+	padding: 12px 10px 12px 10px;
+}
+.homeblack:hover{
+	background-color: blue;
+	padding: 12px 10px 12px 10px;
+}
+.socialmedia:hover{
+	background-color: orange;
+	padding: 5px 5px 5px 5px;
+
+}
+/*header k nechay wala border*/
+
+.div1{
+	background-color: indianred;
+	height: 5px;
+	
+}
+
+.img1 {
+
+	background-image: url(../images/img.jpg);
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*Image k andar wali heading are u looking for an */
+
+.h22{
+	color: white;
+	margin: 0;
+	font-size: 35px;
+	padding:15% 5% 0% 60%;
+	font-family: 'Raleway', sans-serif;
+
+}
+/* online tutor color*/
+.h12{
+	margin: 0.5% 0% 0% 60%;
+	font-size: 50px;
+	color: rgb(255,80,25);
+	background-color: rgba(0,0,0,0.5);
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*if yes wala*/
+.h11{
+	margin: 0.5% 0% 0% 60%;
+    color: darkgreen;
+    font-size: 70px;
+}
+
+/*U r at right place*/
+.h111{
+	margin:  0.5% 0% 0% 60%;
+	color: maroon;
+	font-family: 'Raleway', sans-serif;
+}
+ 
+ /*Search box*/
+ .formm input{
+ 	margin:  5% 0% 0% 30%;
+ 	width: 500px;
+ 	height: 30px;
+ 	border-top:10px 10px 10px 10px;
+ 	border-color: red;
+}
+
+/*select drop down menu*/
+.selectclass{
+	width: auto;
+	height: 35px;
+	border:10px 10px 10px 10px;
+	border-color: blue;
+	color: blue;
+	background-color: orange;
+
+
+}
+/*search button*/
+#button1 {
+	margin: .5% 0% 0% 47%;
+    width: 65px;
+    border: 5px 0px 0px 0px;
+    border-color:red;
+	height: 30px;
+	cursor: pointer;
+	color: darkblue;
+	background-color: indianred;
+
+}
+.div2{
+	
+	width: 100%;
+	height: 80px;
+}
+
+/*div 2 buttons wala section*/
+.div2 ul li{
+	float: right;
+	list-style-type: none;
+	padding: 6px;
+	margin-right: 340px;
+	padding-top: 10px;
+}
+.btn1{
+	background-color: indianred ;
+	cursor: pointer;
+	height: 40px;
+	width: 170px;
+
+}
+.btn1 a{
+	text-decoration: none;
+	color: white;
+}
+.btn2{
+	background-color: indianred;
+	cursor: pointer;
+	height: 40px;
+	width: 170px;
+}
+.btn2 a{
+	text-decoration: none;
+	color: white;
+}
+
+.btn3{
+	background-color: indianred;
+	cursor: pointer;
+	height: 40px;
+	width: 170px;
+	box-sizing: 5px;
+}
+.btn3 a {
+	text-decoration: none;
+	color: white;
+
+}
+
+/*div 3 section*/
+.div3{
+	background-color: slateblue;
+	width: 100%;
+	height: 300px;
+}
+.div3 h1{
+	text-align: center;
+	color: yellow;
+	padding-top: 8px;
+	font-family: sans-serif;
+}
+.div3 img{
+	
+	margin-left: 100px;
+
+}
+
+.div4{
+	width: 100%;
+	height: 650px;
+	background-color: darkcyan;
+}
+.div4 h1{
+	font-size: 50px;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	font-style: bold;
+}
+
+.div5{
+	width: 100%;
+	height: 350px;
+	padding-top: 3px;
+	background-color: darkslategray;
+	text-align: center;
+	color: white;
+
+}
+
+/*footer section*/
+  footer{
+  	background-color: brown;
+  	width: 100%;
+  	height: 35px;
+  	
+  }
+   /*Copyright wala*/
+   .footerdiv{
+   	font-family: 'Raleway', sans-serif;
+   	float: right;
+   	margin-top: 9px;
+   	margin-right: 3em;
+   	color: white;
+   }
+
+  .footer{
+		float: right;
+}
+.footer li{
+	float: right;
+	padding: 8px;
+	list-style-type: none;
+	margin-right: 1em;
+	margin-top: -0.2em;
+}
+
+.para {
+	margin:10px 30px; 
+	font-size:18px;
+}
+
+
+
+/**
+*
+contact us css
+*/
+
+.contact-main-box {
+    width: 600px;
+    height: 630px;
+    background-color: lightgray;
+    margin-top: 0em;
+    margin-left: 23em;
+}
+
+#contact_full_box {
+	min-height: 100px;
+	overflow: hidden;
+	width: 100%;
+	background-image: url("../images/faqsbgimage.jpg");
+	/*background-repeat: no-repeat;*/
+}
+
+.contact-main-box h1 {
+	color: darkgreen;
+	padding-top:0.5em;
+   	font-family: sans-serif;
+	}
+
+	.contact-text-box {
+   	margin-left: 3em;
+   	height: 2em;
+   	width: 265px;
+   }
+
+  
+.contact-select{
+   	width: 269px;
+   	height: 2.6em;
+   	margin-left: 3em;
+   }
+
+   
+
+  .contact-textarea {
+  	margin-left: 3em;
+  	width:20em;
+
+  }
+
+  .contact-send-button {
+  	width: 20em;
+  	margin-top: 2em;
+  	height: 2.6em;
+  	background-color: forestgreen;
+  	margin-left: 3em;
+  }
+  
+  #contact-send-form {
+  	margin: 0 auto;
+  }
+
+#contact-send-form tr {
+  	height: 45px;
+  }
+
+
+/**
+FAQ'S CSS
+*/
+
+
+.faq-div2{
+	width: 100%;
+	height: 80px;
+	margin:-5px 0px 0px 0px;
+    text-align: center;
+	background-color: seagreen;
+
+}
+
+.faq-div2 h1{
+	padding: 20px;
+	color: white;
+}
+
+
+.faq-div1{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	margin: -15px 0px 0px 0px;
+	padding-bottom: 1px;
+	border:2px solid red;
+
+}
+
+.faq-div1 ul li{
+	       padding-right: 10px;
+	       padding: 10px;
+           float: right;
+           list-style-type: none;
+           cursor: pointer;
+           color: white;
+}
+
+
+
+.faq-div1 ul li:hover{
+	background-color: orange;
+	padding: 3px 3x 3px 3px;
+}
+
+.faq-div3 button{
+	width: 30%;
+	height: 30px;
+	text-align: left;
+	padding-top: 5px;
+	margin-top: 8px;
+	margin-left: 35%;
+	background-color: seagreen;
+	border: solid 2px maroon;
+}
+
+.faq-ans1, .faq-ans2, .faq-ans3, .faq-ans4, .faq-ans5, .faq-ans6, 
+.faq-ans7, .faq-ans8, .faq-ans9, .faq-ans10, .faq-ans11, .faq-ans12 {
+	display: none;
+	/*background-color: brown;*/
+	color: white;
+	background-color: #F27070;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.skew-button {
+  color: yellow !important;
+  font-size: 16px;
+  transform: skew(-20deg);
+
+}

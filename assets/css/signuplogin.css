@@ -1,0 +1,458 @@
+.studentbody{
+
+	margin: 0;
+	background-image: url(../images/student.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parentbody{
+	 background-image: url(../images/gold.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 margin: 0;
+}
+
+
+.signup{
+
+	width: 34em;
+	height: 34em;
+	background-color: transparent;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 23em;
+	border: solid 2px seagreen;
+}
+
+
+.signup h1{
+
+	font-family: sans-serif;
+	margin-left: 4em;
+	padding-top: 0.5em;
+	color: seagreen;
+
+}
+
+.signup input{
+
+	 width: 34em;
+	 margin-left: 3em;
+	 margin-top: 1.3em;
+	 height: 2em;
+}
+
+input.passward1{
+	width: 15.5em;
+}
+input.passward2{
+	width: 15.5em;
+	margin-left: 2.2em;
+}
+.signup select{
+
+	 width: 34.4em;
+	 margin-left: 3em;
+	 margin-top: 1.3em;
+	 height: 2.4em;
+	}
+
+	.validnumber{
+		margin-left: 3em;
+		margin-top: 3px;
+		color: darkslategray;
+		font-family: sans-serif;
+		font-size: 15px;
+	}
+.sendbutton{
+	width: 34em;
+	margin-top: -0.5em;
+	height: 3em;
+	margin-left: 3em;
+	background-color: palevioletred;
+
+}
+
+ .lastmessage{
+   	
+   	margin-left: 16.5em;
+   	margin-top: 1em;
+   	color: darkslategray;
+   	font-family: sans-serif;     
+   }
+
+   .lastmessage a{
+
+   	text-decoration: none;
+   	color: blue;
+   	font-family: georgia;
+
+   }
+
+.studentsignup{
+
+	width: 34em;
+	height: 39em;
+	background-color: transparent;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 23em;
+	border: solid 2px seagreen;
+}
+
+.studentsignup h1{
+
+	font-family: sans-serif;
+	margin-left: 4em;
+	padding-top: 0.5em;
+	color: seagreen;
+
+}
+
+.studentsignup input{
+
+	 width: 34em;
+	 margin-left: 3em;
+	 margin-top: 1.3em;
+	 height: 2em;
+}
+
+
+
+.studentsignup select{
+
+	 width: 34.4em;
+	 margin-left: 3em;
+	 margin-top: 1.3em;
+	 height: 2.4em;
+	}
+
+
+/*Tutor Signup Start from here*/
+
+  .tutorbody{
+  	background-image: url(../images/to.jpg);
+  	margin:0;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  }
+ header{
+
+  	color: white;
+  	background-color: darkslategray;
+  	height: 60px;
+  	text-align: center;
+  	font-family: sans-serif;
+  	padding-top: 1em;
+  	font-size: 30px;
+  }
+
+  footer{
+
+  	color: white;
+  	background-color: darkslategray;
+  	height: 60px;
+  	text-align: center;
+  	font-family: sans-serif;
+  	padding-top: 1em;
+  	font-size: 30px;
+
+  }
+
+   .tutorsignup {
+
+	width: 34em;
+	height: 55em;
+	background-color: transparent;
+	margin-top: 2em;
+	margin-left: 48em;
+	margin-bottom: 2em;
+	border: solid 2px seagreen;
+}
+
+.tutorsignup h1{
+
+	font-family: sans-serif;
+	margin-left: 4em;
+	padding-top: 0.5em;
+	color: lightseagreen;
+}
+
+.tutorsignup input{
+
+	 width: 34em;
+	 margin-left: 3em;
+	 margin-top: 1.3em;
+	 height: 2em;
+	 background-color: transparent;
+	 color: lightgray;
+	 
+
+
+	}
+
+.tutorsignup select{
+
+	 width: 34.4em;
+	 margin-left: 3em;
+	 margin-top: 1.3em;
+	 height: 2.4em;
+	 background-color: transparent;
+	 color: black;
+	}
+.validnumber1{
+		margin-left: 3em;
+		margin-top: 3px;
+		color: lightgray;
+		font-family: sans-serif;
+		font-size: 15px;
+	}
+	.validnumber111{
+		margin-left: 2.8em;
+		margin-top: 3px;
+		color: lightgray;
+		font-family: sans-serif;
+		font-size: 15px;
+	}
+
+.whteach{
+	margin-left: 3em;
+	color: lightgray;
+}
+.subjectdiv {
+	 width: 20em;
+	 height: 10em;
+	 margin-top: -2em;
+	 margin-left: 2em;
+	 
+
+}
+
+.terms{
+	margin-top: 1.4em;
+}
+
+
+.lastmessagetutor{
+   	
+   	margin-left: 16.5em;
+   	margin-top: 1em;
+   	color: lightgray;
+   	font-family: sans-serif;     
+   }
+
+   .lastmessagetutor a{
+
+   	text-decoration: none;
+   	color: indianred;
+   	font-family: georgia;
+
+   }
+
+
+
+/*Login Portion Css Coding*/
+
+.loginbody{
+
+	margin: 0;
+	background-image: url(../images/gold.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.headerdiv{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	margin: -15px 0px 0px 0px;
+	padding-bottom: 1px;
+
+}
+
+
+.logindiv{
+
+	width: 26em;
+	height: 29em;
+	background-color: transparent;
+	margin-top: 2.5em;
+	margin-left: 27em;
+	border: solid 2px seagreen;
+}
+.logindiv h1{
+
+	font-family: sans-serif;
+	margin-left: 4.7em;
+	padding-top: -5em;
+	color: seagreen;
+
+}
+
+.logindiv input{
+
+	 width: 24em;
+	 margin-left: 3em;
+	 margin-top: 1.3em;
+	 height: 2em;
+}
+
+.classtype{
+	 margin-left: 3em;
+
+}
+
+.imglogin{
+
+	zoom: 0.2;
+	margin-left: 27em;
+	margin-top: 1.5em;
+}
+
+
+.forgetpaswardlink{
+
+	font-family: sans-serif;
+	margin-left: 2.5em;
+	margin-bottom:  -2em;
+    color: brown;
+	text-decoration: none;
+}
+.signin{
+
+	margin-top: 0.5em;
+	margin-left: 3em;
+	width: 24em;
+	height: 2.4em;
+	color: white;
+	background-color: seagreen;
+
+}
+
+.chkboxforgetpassward{
+
+    position: relative;
+    left:  13em; 
+    top: -3.5em;
+    zoom: 0.5;
+}
+
+.chkboxforgetpasswardlabel{  
+   
+    position: absolute;
+    left: 39.5em; 
+    color: darkslategray;
+    margin-top: -1.1em;
+
+}
+
+.lastp{
+
+	color: darkslategray;
+	margin-left: 2.6em;
+	margin-top: -1.2em;
+}
+
+.lastalink{
+    
+    margin-left: 13.7em;
+	margin-top: -2em;
+	text-decoration: none;
+	color: brown;
+	font-family: sans-serif;
+}
+
+/*SignUpAs wala portion*/
+
+.signupasbody{
+
+
+    background-image: url(../images/2.png);
+	margin: 0;
+	padding: 0;
+	
+	
+}
+
+.signupasheader{
+
+  	color: white;
+  	background-color: darkslategray;
+  	height: 60px;
+  	text-align: center;
+  	font-family: sans-serif;
+  	padding-top: 1em;
+  	font-size: 30px;
+  	  }
+
+.signupasdiv{
+	
+	width: 100%;
+	height: 300px;
+	
+	margin-top: 3em;
+	background-color: transparent;
+}
+
+.signupash1{
+	 margin-top: 3em;
+	 margin-left: 17em;
+}
+
+
+.btn11{
+	background-color: dimgray ;
+	cursor: pointer;
+	height: 50px;
+	width: 170px;
+	float: left;
+	margin-left: 15em;
+
+	
+}
+.btn11 a{
+	text-decoration: none;
+	color: white;
+}
+/*.btn22{
+	background-color: seagreen;
+	cursor: pointer;
+	height: 50px;
+	width: 170px;
+	margin-top: -3.5em;
+}
+.btn22 a{
+	text-decoration: none;
+	color: white;
+}*/
+
+.btn33{
+	background-color: teal;
+	cursor: pointer;
+	height: 50px;
+	width: 170px;
+    margin-left: 24em;
+    margin-top: 4em;
+
+}
+.btn33 a {
+	text-decoration: none;
+	color: white;
+
+}
+  
+
+  .signupasfooter{
+
+  	color: white;
+  	background-color: darkslategray;
+  	height: 60px;
+  	text-align: center;
+  	font-family: sans-serif;
+  
+    margin-top: 0.5em;
+  	font-size: 20px;
+
+  }

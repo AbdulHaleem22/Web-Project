@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	 <?php
+	 include("headeradmin.php")
+	 include("headeradmin1.php")
+	 ?>
+
+	<title>Online Tutors</title>
+	<link rel="stylesheet" type="text/css" href="css/mainCss.css">
+</head>
+<body>
+
+	<div id="topheader">
+		<h1>Online Tutor</h1>
+		<div id="logo">
+
+		</div>
+	</div>
+
+<header>
+	<nav>
+            <ul id="ul1">
+
+			<li><a class="homered" href="#"> Home </a></li>
+			<li> <a class="homeblack" href="aboutus.html"> About Us </a></li>
+			<li><a class="homeblack" href="contactus.html"> Contact Us </a></li>
+			<li><a class="homeblack" href="faqs.html" target="blank"> FAQs </a></li>
+			
+		</ul>
+
+		<ul class="ul2">
+		
+		<li><a href="stlogout.php"> <img class="socialmedia" src="assets/images/loginpng.png" width="30px" height="30px" title="Logout"></a></li>
+		</ul>
+		<p class="loginlabel">Logout</p>
+	</nav>
+</header>
+
+
+<!--This div is taken for border below the header, coloured red-->
+<div class="div1"> </div>
+
+<div class="img1">
+	
+    <h2 class="h22"> Are you  <span style= "color: yellow"> Looking for an</span></h2>
+	<h1 class="h12">Online Tutor?</h1>
+	<h1 class="h11">If. Yes</h1>
+	<h1 class="h111">You are at Right Place.</h1>
+	
+
+<form method="get" action="mainsearch1.php" class="formm">
+
+
+	<input type="text" name="search" style="width:40em; height:3em; margin-left:32em;"placeholder=" What do you want to study? e.g Biology" required>
+	<!--<select class="selectclass">
+		<option value="select Phase" selected disabled="disabled"> Select Phase</option> 
+		<option> Phase I</option>
+		<option>Phase II</option> 
+		<option> Phase III</option>
+		<option> Phase IV</option> 
+		<option> Phase V </option>
+		<option> Phase VI </option>
+		<option> Phase VII</option>
+	</select>-->
+	
+	
+	<button id="button1" type="submit" name=" SearchTutor" value="Search"> Search</button>
+</form>
+
+
+
+</div>
+
+<div class="div2">
+	<ul>
+     
+     <li> <a href="tutorsignup.html"> <button class="btn3">Register As Tutor </button></a></li>
+    <!-- <li> <a href="parentsignup.html"> <button class="btn2">Register As Parent </button></a></li>-->
+	 <li> <a href="signup.html"> <button class="btn1">  Register As Student</button></a></li>
+	
+	
+	</ul>
+</div>
+
+
+<div class="div3"> 
+	 <h1> Find Tutor for anything</h1>
+	 <img src="assets/images/a1.png">
+</div>
+
+<div class="div4">
+	<h1> Some of our top Tutors </h1>
+
+	<?php
+	
+	?>
+	<<marquee behavior="scroll" direction="left" scrolldelay="120" id="mymarquee" style="color: red ">
+		<img src="assets/images/b1.png"><br>
+		<img src="assets/images/b2.png">
+	</marquee>
+	
+
+
+<div class="div5">
+	<h1> Our Users Love Us</h1><br>
+	<h2 style="color: indianred">Take a look below to learn what our users are saying about us:</h2><hr>
+	<!DOCTYPE html>
+
+
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: grey;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: black;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: black;}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+     <p>"I always disliked calling an agent, waiting for the tutor to come, then decide if he/she is suitable for my child or not. Thanks to OnlineTutor. 
+        It has solved my long time problem. Now, whenever I or anybody in my relatives need a tutor, I simply use Online Tutor, select from thousands of 
+        tutors and schedule a trial with the one click."
+       </p><br>
+  <p class="author">-  Mrs. Subhan, Phase Vii, Hayatabad Peshawar</p>
+</div>
+
+<div class="mySlides">
+  <p>"I wasted my daughter's one month in search of a good tutor but I could not find anybody. But it took me just 1 day to find the most suitable and
+      experienced person when I came to Online Tutor. Process is easy. Tutors are experienced and support team is really responsive and ready to help you 
+      all the time."</p><br><br>
+  <p class="author">- Mrs. Ikram, Phase iii, Hayatabad Peshawar</p>
+</div>
+
+<div class="mySlides">
+  <p>"Online Tutor helped me find a best Biology tutor in just a single day for my son. Excellent service. Affordable tutor. 
+  	No hidden charges. Thanks online Tutor"</p><br><br>
+  <p class="author">- Mr. Ikram Ali Phase vii Hayatabad Peshawar</p>
+</div>
+
+
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+</div>
+<div style="width:100%; height:14em;">
+<form method="GET" action="review.php">
+		<input type="text" name="review" style="width:80em; height:12em; margin-left:3em; margin-top:2em;
+		"placeholder=" Please write a review about us as above pattern" required>
+		<button id="button1" type="submit" name="review" value="review" style="margin-right:40em;"> Review Now</button>
+	</form>
+</div>
+	<br>
+<footer>
+	<style type="text/css">
+	.footer{
+		float: right;
+}
+.footer li{
+	float: right;
+	padding: 8px;
+	list-style-type: none;
+	margin-right: 1em;
+	margin-top: -0.2em;
+}
+	</style>
+	<ul class="footer">
+ <li><a href= "https://www.facebook.com" target="blank"><img class="socialmedia" src="assets/images/facebook.ico" width="25px" height="25px" title="Facebook"></a></li>
+		<li> <a href=assets/css/https://www.instagram.com/ target="blank"><img class="socialmedia" src="assets/images/instagram.png" width="25px" height="25px" title="Instagram">
+		</a></li>
+		<li><a href="https://www.twitter.com" target="blank" ><img class="socialmedia" src="assets/images/twitter.png" width="25px" height="25px" title="Twitter"></a>
+   </ul>
+ <div class="footerdiv"> Copyright © Aslam_khan </div>
+ </footer>
+ 
+</body>
+</html>
+

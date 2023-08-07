@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Tutor</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/signuplogin.css" />
+	    <script src="assets/js/jquery.min.js"></script>
+</head>
+<body class="studentbody">
+<header> Welcome To Online Tutor </header>
+	<div class="studentsignup">
+
+		<h1> Register As Student </h1><hr>
+
+		<form method="post" action="studentinfo.php">
+			<input type="text" name="name" placeholder="Full Name" required="required">
+			<input type="Text" id="email" name="email" placeholder="Email Address" required="required">
+			<input class="passward1" type="password" id="password1" name="password1" placeholder="password" required="required">
+	<input class="passward2" type="password" id="password2" name="password2" placeholder="Confirm password" required="required">
+	<select name="gender" required="required">
+		<option value=""> Gender</option>
+		<option>Male</option>
+		<option>Female</option>
+	</select>
+
+	<select name="phase"  required="required">
+		<option value=""> Select Phase</option>
+		<option> Phase I </option>
+		<option>Phase II</option>
+		<option>Phase III</option>
+		<option>Phase IV</option>
+		<option>Phase V</option>
+		<option>Phase VI</option>
+		<option>Phase VII</option>
+	</select>
+
+	
+	
+	<input class="nmb" type="tel" name="phone" placeholder=" Phone Number i.e 0300-22AA99C"  required="required">
+	<p class="validnumber" >Please Provide valid and active number that you are using yourself.</p><hr>
+
+     
+	<button type= "submit" id="submit" name="signup" class="sendbutton"> Sign Up </button>
+
+	<p class="lastmessage">Already have an account ? <a href="login.php"> Login </a></p>
+
+		</form>
+		
+	</div>
+
+
+
+<script>
+	$(document).ready(function () {
+		
+		$("#password2").blur(function() {
+			var password1 = $("#password1").val();
+			var password2 = $("#password2").val();
+
+			password1 = password1.trim();
+			password2 = password2.trim();
+			
+			$("#password1").val(password1);
+			$("#password2").val(password2);
+
+			if(password1 !== password2) {
+				alert("Password and confirm password are not equal");
+				$("#submit").attr("disabled", "disabled");
+			} else {
+				$("#submit").removeAttr("disabled");
+			}
+
+		});
+
+
+
+
+		$("#email").blur(function () {
+			var email = $("#email").val().trim();
+			$("#email").val(email);
+
+			if(email !== "") {
+
+				  $.ajax({
+            		type: "GET",
+            		url: "ajax/student_email_ajax.php",
+            		data: {
+                		"student_email":email
+            		},
+            		cache:false,
+            		async:false,
+            
+            		success: function( data) {
+            			data = data * 1;
+
+            			if(data >= 1) {
+            				$("#submit").attr("disabled", "disabled");
+            				alert('The provide email has already been used by another user.');
+            			} else {
+            				$("#submit").removeAttr("disabled");
+            			}
+            		},
+            		error: function(jqXHR, textStatus, errorThrown){
+            			alert(errorThrown);
+            		}
+
+        		}); 
+			}
+
+		});
+
+
+	});
+</script>
+
+</body>
+</html>
